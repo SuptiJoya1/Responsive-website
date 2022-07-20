@@ -92,6 +92,8 @@ button{
     display: flex;
     padding: 20px;
     border: 2em;
+    box-shadow: rgb(99,99,99,0.2);
+    border-radius: 10px;
 }
 .flex{
     display: flex;

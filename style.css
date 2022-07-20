@@ -1,4 +1,9 @@
 /* first part */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .first-part{
     margin: 100px;
     margin-right: 70%;
@@ -35,7 +40,17 @@ button{
     border-radius: 20px;
     background-color: rgb(214, 100, 100);
     color: black;
+    
+}.watch-live:hover{
+    height: 200px;
+    width: 300px;
 }
+.watch-live{
+    height: 100px;
+    width: 300px;
+    transition: width 5s ease 1s, height 5s ease 1s;
+}
+
 .fa-solid{
     padding: 15px;
 }
@@ -111,6 +126,9 @@ button{
 }
 .flex{
     display: flex;
+}
+#link-hide{
+    display: none;
 }
 /* Footer */
 
@@ -205,6 +223,7 @@ hr{
     }
     
 }
+/* Tablet */
 @media only screen and (min-width:688px) and (max-width:992px) {
     .flex{
         flex-direction: column;
@@ -221,6 +240,7 @@ hr{
         margin-bottom: 10%;
         
     }
+    
     .link{
         text-decoration: none;
         background-image: linear-gradient(orange ,tomato);
@@ -232,5 +252,8 @@ hr{
     }
     footer{
         margin-top: 10%;
+    }
+    #link-hide{
+        display: inline;
     }
 }
