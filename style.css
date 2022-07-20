@@ -1,0 +1,71 @@
+/* first part */
+.first-part{
+    margin: 100px;
+    margin-right: 70%;
+
+    display: flex;
+    padding: 20px;
+    box-sizing: 30%;
+    background-color: black;
+    border-radius: 20px;
+    width: 80%;
+   
+
+
+}
+.greatest-show{
+    
+    height: 40%;
+    padding: 40px;
+    border-radius: 20px;
+    margin-right: 20px
+}
+h3{
+    font-size: 50px;
+    color: white;
+}
+p{
+    color: white;
+    margin-bottom: 30px;
+    font-size:20px ;
+}
+button{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(214, 100, 100);
+    color: black;
+}
+.fa-solid{
+    padding: 15px;
+}
+
+/* 2nd part */
+
+.navigation{
+    background-color: black;
+    width: 17%;
+    margin: 100px;
+}
+
+.Match{
+    margin: 25px;
+    margin-bottom: 1px;
+    background-color: white ;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 50px;
+    
+}
+#group{
+    padding: 10px 80px;
+}
+#blog{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    margin: 25px;
+    text-align: center;
+    padding: 10px 100px;
+}
