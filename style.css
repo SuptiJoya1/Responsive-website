@@ -69,3 +69,32 @@ button{
     text-align: center;
     padding: 10px 100px;
 }
+
+/* Blog */
+
+.paragraph{
+    color: black;
+    font-size: 20px;
+}
+.fa-message-dots{
+ color: rgb(85, 51, 7);
+}
+.transfer{
+    background-color: aliceblue;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    border: dropped;
+    
+}
+.transfers-info{
+    margin: 20px;
+}
+ .articles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1px;
+    
+}
+
