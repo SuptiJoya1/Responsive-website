@@ -46,6 +46,9 @@ button{
     background-color: black;
     width: 17%;
     margin: 100px;
+    height: 20%;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 
 .Match{
@@ -75,6 +78,7 @@ button{
 .paragraph{
     color: black;
     font-size: 20px;
+    
 }
 .fa-message-dots{
  color: rgb(85, 51, 7);
@@ -82,6 +86,7 @@ button{
 .transfer{
     background-color: aliceblue;
     flex-direction: column;
+    margin-top: 20px;
 }
 .info{
     display: flex;
@@ -94,7 +99,47 @@ button{
  .articles{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 1px;
+    grid-column-gap: 5px;
     
 }
+.border{
+    background-color:  white;
+    border-radius: 20px;
+    
+    margin: 20px;
+    width: 50%;
+}
+.flex{
+    display: flex;
+}
+/* Footer */
 
+footer{
+    background-color: black;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 90px;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 15px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.footer-level{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    
+}
+.contact{
+    padding: 30px;
+    
+}
